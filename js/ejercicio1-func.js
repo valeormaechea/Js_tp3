@@ -9,4 +9,5 @@ function paridad(numero) {
 }
 
 let numero = parseInt(prompt("Ingrese un numero: "));
-document.write(paridad(numero));
+let rdoParidad = paridad(numero);
+document.write(rdoParidad);
